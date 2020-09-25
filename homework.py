@@ -43,7 +43,7 @@ elif value == 'Декабрь' or value == 'декабрь':
 else:
     print('Нет такого месяца')
     j;;
-
+     jfkkfkfkf
 
 
 
