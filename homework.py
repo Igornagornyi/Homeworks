@@ -50,6 +50,8 @@ else:
     print('jgjhjjgjg')
     print('fffkk')
     print('kk')
+    kk
+    llk
 
 
 
