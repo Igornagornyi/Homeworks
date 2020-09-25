@@ -42,17 +42,6 @@ elif value == 'Декабрь' or value == 'декабрь':
     print('Количество дней равно:31')
 else:
     print('Нет такого месяца')
-    print('Hiii456')
-    print('87')
-    print('yuu')
-    print('hh')
-    print('hjhk')
-    print('jgjhjjgjg')
-    print('fffkk')
-    print('kk')
-    kk
-    llk
-    kgkggj
 
 
 
