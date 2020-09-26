@@ -19,7 +19,29 @@
 # for i in my_str:
 #    if i .isupper() and i .isalpha():
 #      print(i .lower())
-
+#####################################################################
+# my_str = input('Напишите слово:')
+# my_str = my_str * 2 if len(my_str) < 5 else my_str
+# print(my_str)
+#####################################################################
+# my_str = (input('Напишите слово:'))
+# my_str = str(my_str) + str(my_str)[::-1] if len(my_str) < 5 else my_str
+# print(my_str)
+######################################################################
+# my_str = (input('Напишите предложение:'))
+# for i in my_str:
+#     if i .isalpha() or i .isdigit():
+#         print(i)
+#####################################################################
+# my_str = (input('Напишите предложение:'))
+# for i in my_str:
+#     if not i .isalpha() and not i .isdigit():
+#         print(i)
+#####################################################################
+# my_str = (input('Напишите предложение:'))
+# for i in my_str:
+#     if not i.isalpha() and not i.isdigit() and not i .isspace():
+#         print(i)
 
 
 
