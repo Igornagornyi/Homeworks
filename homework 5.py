@@ -95,6 +95,6 @@ print(str(sub_str))
 #10
 list_1 = [10, 45, 18, 74, 34, 24, 25, 53, 44, 6, 85]
 list_2 = []
-for i in range(len(list_1)):
+for i in range(len(list_1)-1):
     list_2.append(list_1[i]) if list_1[i-1] < list_1[i] > list_1[i+1] else None
 print(list_2)
