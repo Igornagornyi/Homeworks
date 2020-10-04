@@ -47,30 +47,24 @@ for i in value_1:
     except:
         pass
 print(sum)
+########################################################################
 #7
 value = 'asuf7pp'
 value = list(value)
+.......
 
 ########################################################################
 #8
 my_str = 'My_long str'
 l_limit = "o"
 r_limit = "t"
-my_str = list(my_str)
-sub_str = []
-sub_str.extend((my_str)[5:9])
-sub_str = ''.join(sub_str)
-print(str(sub_str))
+........
 # #########################################################################
 #9
 my_str = 'My long string'
 l_limit = "o"
 r_limit = "g"
-my_str = list(my_str)
-sub_str = []
-sub_str.extend((my_str)[5:13])
-sub_str = ''.join(sub_str)
-print(str(sub_str))
+.........
 # #########################################################################
 #10
 list_1 = [10, 45, 18, 74, 34, 24, 25, 53, 44, 6, 85]
