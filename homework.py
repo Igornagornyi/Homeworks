@@ -51,8 +51,14 @@
 # for index, value in enumerate(my_list):
 #     my_list_2.append(value[::-1]) if index % 2 != 0 else my_list_2.append(value)
 # print(my_list_2)
-my_list = ['tyiu', 'rty', 'atc', 'ty96', 'aero', 'dpl', 'avbd', 'Artep']
-my_list_2 = []
-for value in my_list:
-    my_list_2.append(value) if value[0] == 'a' or value[0] == 'A' else None
-print(my_list_2)
+# my_str = 'tyiu' , 'rty', 'atc', 'ty96', 'aero', 'dpl', 'avbd', 'Artep'
+# my_str = ''.join(my_str)
+# print(my_str.startswith('t'))
+# my_list_2 = []
+# for value in my_list:
+#     my_list_2.append(value) if value[0] == 'a' or value[0] == 'A' else None
+# print(my_list_2)
+# my_list = [1, 4, 8, 10]
+# print(mi(my_list))
+ 10
+ list_1 = [10, 45, 18, 74, 34, 24, 25, 53, 44, 6, 85]
