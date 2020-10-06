@@ -69,7 +69,8 @@ l_limit = my_str.find('o')
 r_limit = my_str.rfind('g')
 my_list = []
 my_list.append(my_str[l_limit+1:r_limit])
-print(my_list)
+sub_str = ''.join(my_list)
+print(sub_str)
 ##########################################################################
 #10
 list_1 = [10, 45, 18, 74, 34, 24, 25, 53, 44, 6, 85]
