@@ -7,8 +7,16 @@ from random import randint
 # print(rand_list)
 ###############################################################################################
 #2
-point_A = [randint(1, 20) for i in range(2)]
-point_B = [randint(1, 20) for i in range(2)]
-point_C = [randint(1, 20) for i in range(2)]
-triangle = {'A': point_A, 'B': point_B, 'C': point_C}
-print(triangle)
+# point_A = [randint(1, 20) for i in range(2)]
+# point_B = [randint(1, 20) for i in range(2)]
+# point_C = [randint(1, 20) for i in range(2)]
+# triangle = {'A': point_A, 'B': point_B, 'C': point_C}
+# print(triangle)
+###############################################################################################
+#3
+def my_print(my_str):
+    my_str += '*' * 3
+    my_str = my_str[::-1]
+    my_str += '*' * 3
+    my_str = my_str[::-1]
+    print(my_str)
