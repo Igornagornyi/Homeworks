@@ -14,9 +14,18 @@ from random import randint
 # print(triangle)
 ###############################################################################################
 #3
-def my_print(my_str):
-    my_str += '*' * 3
-    my_str = my_str[::-1]
-    my_str += '*' * 3
-    my_str = my_str[::-1]
-    print(my_str)
+# def my_print(my_str):
+#     my_str += '*' * 3
+#     my_str = my_str[::-1]
+#     my_str += '*' * 3
+#     my_str = my_str[::-1]
+#     print(my_str)
+###############################################################################################
+#4a
+# my_dict_1 = dict(a=1, b=2, c=100, d='qwe')
+# my_dict_2 = dict(b=2, f=8, e=1000, d='qwe', p=13,)
+# my_dict_1 = set(my_dict_1)
+# my_dict_2 = set(my_dict_2)
+# result = my_dict_1.intersection(my_dict_2)
+# print(list(result))
+#4b
