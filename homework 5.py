@@ -49,8 +49,15 @@ for i in value_1:
 print(sum)
 ########################################################################
 #7
-value = 'asuf7pp'
-value = list(value)
+my_str = 'qwewtwegs'
+if len(my_str) % 2:
+  my_str += "_"
+my_list = []
+for index in range(len(my_str) // 2):
+  my_list.append(my_str[2*index: 2*index+2])
+
+print(my_list)
+
 
 
 ########################################################################
