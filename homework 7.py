@@ -22,6 +22,7 @@ def my_print(my_str):
     print(my_str)
 ###############################################################################################
 #4a
+
 my_dict_1 = dict(a=1, b=2, c=100, d='qwe', i=0)
 my_dict_2 = dict(b=3, f=8, e=1000, d='qwe', p=13)
 my_list = []
@@ -29,6 +30,7 @@ for key in my_dict_1:
     my_list.append(key) if key in my_dict_2 else None
 print(my_list)
 #4б
+
 my_dict_1 = dict(a=1, b=2, c=100, d='qwe', i=0)
 my_dict_2 = dict(b=3, f=8, e=1000, d='qwe', p=13)
 my_list = []
@@ -36,6 +38,7 @@ for key in my_dict_1:
     my_list.append(key) if key not in my_dict_2 else None
 print(my_list)
 #4в
+
 my_dict_1 = dict(a=1, b=2, c=100, d='qwe', i=0)
 my_dict_2 = dict(b=3, f=8, e=1000, d='qwe', p=13)
 my_dict_3 = dict()
@@ -45,6 +48,7 @@ result = my_dict_1.difference(my_dict_2)
 result = dict(result)
 print(result)
 #4г
+
 my_dict_1 = dict(a=1, b=2, c=100, d='qwe', i=0)
 my_dict_2 = dict(b=3, f=8, e=1000, d='qwe', p=13)
 my_dict_3 = dict()
