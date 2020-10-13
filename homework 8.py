@@ -9,12 +9,14 @@ with open('domains.txt') as file:
     my_list_dl.extend(lines)
 for names in my_list_dl:
     my_list_2_dl.append(str(names[1:-1])) if str(names[-1]) == '\n' else my_list_2_dl.append(str(names[1:len(my_list_2_dl)]))
-number_1 = randint(1, len(my_list_2_dl)-1)
-number_2 = randint(1, len(my_list_2_dl)-1)
-number_3 = randint(1, len(my_list_2_dl)-1)
+number_1 = randint(0, len(my_list_2_dl)-1)
+number_2 = randint(0, len(my_list_2_dl)-1)
+number_3 = randint(0, len(my_list_2_dl)-1)
 my_list_3_dl.append(my_list_2_dl[number_1])
 my_list_3_dl.append(my_list_2_dl[number_2])
 my_list_3_dl.append(my_list_2_dl[number_3])
+print(my_list_3_dl)
+
 
 def print_random_domains():
     print(my_list_3_dl)
