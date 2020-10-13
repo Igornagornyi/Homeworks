@@ -3,7 +3,6 @@ import string
 from random import randint
 with open('domains.txt') as file:
     lines = file.readlines()
-for names in lines:
     my_list_dl = []
     my_list_2_dl = []
     my_list_3_dl = []
@@ -23,13 +22,12 @@ def print_random_domains():
 #2
 with open('names.txt') as file:
     lines = file.readlines()
-    for names in lines:
-        my_list_sur = []
-        my_list_2_sur = []
-        my_list_sur.extend(lines)
-    for names in my_list_sur:
-        my_list_sur = names.split()
-        my_list_2_sur.append(my_list_sur[1])
+my_list_sur = []
+my_list_2_sur = []
+my_list_sur.extend(lines)
+for names in my_list_sur:
+    my_list_sur = names.split()
+    my_list_2_sur.append(my_list_sur[1])
 
 def print_surnames_list():
     print(my_list_2_sur)
@@ -41,8 +39,7 @@ def print_random_surname():
 ################################################################################################
 #3
 with open('domains.txt') as file:
-  lines = file.readlines()
-for names in lines:
+    lines = file.readlines()
     my_list = []
     my_list_2 = []
     my_list_3 = []
@@ -70,5 +67,4 @@ def get_email_letters():
 def random_email():
     email_part = print_random_surname() + '.' + get_email_number() + '@' + get_email_letters() + '.' + random_domain()
     print(email_part)
-
 
