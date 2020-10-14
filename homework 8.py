@@ -53,4 +53,3 @@ domains = read_domains('domains.txt')
 names = read_names('names.txt')
 
 
-print(random_email(domains, names))
