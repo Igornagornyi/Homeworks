@@ -3,8 +3,8 @@ import string
 from random import randint
 with open('domains.txt') as file:
     lines = file.readlines()
-    my_list_dl = []
-    my_list_2_dl = []
+my_list_dl = []
+my_list_2_dl = []
 for names in lines:
     my_list_dl.append(str(names[1:-1])) if str(names[-1]) == '\n' else my_list_dl.append(str(names[1:len(names)]))
 number_1 = randint(0, len(my_list_dl) - 1)
@@ -38,8 +38,8 @@ def print_random_surname():
 #3
 with open('domains.txt') as file:
     lines = file.readlines()
-    my_list = []
-    my_list_2 = []
+my_list = []
+my_list_2 = []
 for names in lines:
     my_list.append(str(names[1:-1])) if str(names[-1]) == '\n' else my_list.append(str(names[1:len(names)]))
 number_1 = randint(0, len(my_list) - 1)
