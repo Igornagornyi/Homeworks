@@ -9,7 +9,6 @@ def read_domains(file_path):
     for names in lines:
             my_list_dl.append(str(names[1:-1])) if str(names[-1]) == '\n' else my_list_dl.append(str(names[1:len(names)]))
     return my_list_dl
-
 #############################################################################################
 #2
 
