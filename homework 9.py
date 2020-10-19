@@ -1,7 +1,6 @@
 #express
 
 import os
-import sys
 def get_path_to_files_and_folders(path):
     files = []
     folders = []
@@ -136,7 +135,7 @@ def get_person_list(lines):
         return result_list
 
 lines = read_name_date_lines('authors.txt')
-
+print(get_person_list(lines))
 # date = read_dates('authors.txt')
 # name = read_names('authors.txt')
 # print(read_name_and_date(lines[0]))
@@ -270,10 +269,9 @@ def read_persons_date_of_birth_and_death(path_file):
                                 if 'th' in d_date[index]:
                                     b_date[index] = b_date[index].replace('th', '')
                                 new_dict = {'name': name, 'b_date': b_date, 'd_date': d_date}
-                return new_dict
+     return new_dict
 
 
 
 
 
-print(read_persons_date_of_birth_and_death(lines))
