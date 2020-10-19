@@ -135,10 +135,6 @@ def get_person_list(lines):
         return result_list
 
 lines = read_name_date_lines('authors.txt')
-print(get_person_list(lines))
-# date = read_dates('authors.txt')
-# name = read_names('authors.txt')
-# print(read_name_and_date(lines[0]))
 #########################################################################################################
 #4
 path_file = 'authors.txt'
