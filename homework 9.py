@@ -29,7 +29,7 @@ def read_name_date_lines(file_path):
         for line in lines:
             if "death" in line.lower() or "birth" in line.lower():
                 my_list_name.append(line)
-        return my_list_name
+    return my_list_name
 ##############################################################################################
 #2
 def read_dates(path_file):
@@ -99,8 +99,6 @@ def read_dates(path_file):
                         my_list_date[index] = my_list_date[index].replace('th', '')
     return my_list_date
 
-
-
 def read_names(file_path):
     my_list_name = []
     with open(file_path, 'r') as file:
@@ -112,7 +110,6 @@ def read_names(file_path):
                     r_limit = line.find("'")
                     my_list_name.append(line[l_limit+1:r_limit].strip())
     return my_list_name
-
 
 
 def read_name_and_date(line:str):
@@ -128,13 +125,12 @@ def read_name_and_date(line:str):
 ##########################################################################################################################
 #3
 
+lines = read_name_date_lines('authors.txt')
 def get_person_list(lines):
     result_list = []
     for line in lines:
         result_list.append(read_name_and_date(line))
         return result_list
-
-lines = read_name_date_lines('authors.txt')
 #########################################################################################################
 #4
 path_file = 'authors.txt'
