@@ -263,7 +263,3 @@ def read_persons_date_of_birth_and_death(path_file):
                                 new_dict = {'name': name, 'b_date': b_date, 'd_date': d_date}
     return new_dict
 
-
-
-
-
