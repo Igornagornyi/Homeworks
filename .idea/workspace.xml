@@ -5,7 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7230b8-ff28-4939-845d-d28146e6f0d8" name="Default Changelist" comment="done" />
+    <list default="true" id="6c7230b8-ff28-4939-845d-d28146e6f0d8" name="Default Changelist" comment="4th done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +70,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603199398060</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="4th done">
+      <created>1603199547156</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603199547156</updated>
+    </task>
+    <task id="LOCAL-00007" summary="4th done">
+      <created>1603199708876</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603199708876</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,20 +102,25 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="done 3" />
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="4th done" />
+    <option name="LAST_COMMIT_MESSAGE" value="4th done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603199380102">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1603199380102" />
-    <state x="569" y="278" key="VCS.EditChangelistDialog" timestamp="1603199346817">
+    <state x="569" y="278" key="VCS.EditChangelistDialog" timestamp="1603199670746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="569" y="278" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1603199346817" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603199403328">
+    <state x="569" y="278" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1603199670746" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603199724677">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603199403328" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603199724677" />
+    <state x="0" y="0" width="1122" height="715" key="dock-window-1" timestamp="1603199734760">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="1122" height="715" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1603199734760" />
   </component>
 </project>
