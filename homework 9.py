@@ -105,7 +105,6 @@ def read_names(file_path):
         lines = file.readlines()
         for line in lines:
             if "death" in line.lower() or "birth" in line.lower():
-                if "'" in line:
                     l_limit = line.find('-')
                     r_limit = line.find("'")
                     my_list_name.append(line[l_limit+1:r_limit].strip())
