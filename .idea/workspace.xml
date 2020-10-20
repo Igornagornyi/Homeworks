@@ -5,9 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7230b8-ff28-4939-845d-d28146e6f0d8" name="Default Changelist" comment="4th done">
-      <change beforePath="$PROJECT_DIR$/Homework 10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 10.py" afterDir="false" />
-    </list>
+    <list default="true" id="6c7230b8-ff28-4939-845d-d28146e6f0d8" name="Default Changelist" comment="4th done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603199931352</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="done">
+      <created>1603200782177</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603200782177</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,8 +129,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="done 3" />
-    <MESSAGE value="done" />
     <MESSAGE value=" done" />
+    <MESSAGE value="done" />
     <MESSAGE value="4th done" />
     <option name="LAST_COMMIT_MESSAGE" value="4th done" />
   </component>
@@ -138,10 +143,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="569" y="278" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1603199670746" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603199981586">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603200832458">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603199981586" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603200832458" />
     <state x="0" y="0" width="1122" height="715" key="dock-window-1" timestamp="1603199734760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
