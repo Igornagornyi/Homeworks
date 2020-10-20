@@ -5,8 +5,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53a6ff86-bf8d-43c5-a4d8-7b71ad5a5107" name="Default Changelist" comment="4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="53a6ff86-bf8d-43c5-a4d8-7b71ad5a5107" name="Default Changelist" comment="done">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600508967024</updated>
-    </task>
-    <task id="LOCAL-00021" summary="uncommented">
-      <created>1601706527919</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1601706527919</updated>
     </task>
     <task id="LOCAL-00022" summary="2 tasks">
       <created>1601828610111</created>
@@ -533,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603196150912</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="done">
+      <created>1603196464111</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1603196464113</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -613,10 +613,10 @@
     <MESSAGE value="1st" />
     <MESSAGE value="new" />
     <MESSAGE value="2nd" />
-    <MESSAGE value="done" />
     <MESSAGE value="4th done" />
     <MESSAGE value=" done" />
-    <option name="LAST_COMMIT_MESSAGE" value=" done" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="188" key="#Notifications" timestamp="1601018524740">
@@ -631,10 +631,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="235" height="442" key="Diff.GoToChangePopup/0.0.1366.728@0.0.1366.728" timestamp="1600960100205" />
-    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog" timestamp="1603196219078">
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog" timestamp="1603196821788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1603196219078" />
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1603196821788" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1603039488927">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -683,14 +683,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="519" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601664103392" />
-    <state x="569" y="278" key="VCS.EditChangelistDialog" timestamp="1603196239226">
+    <state x="569" y="278" key="VCS.EditChangelistDialog" timestamp="1603196672037">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="569" y="278" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1603196239226" />
-    <state x="275" y="97" width="813" height="534" key="Vcs.Push.Dialog.v2" timestamp="1603196229562">
+    <state x="569" y="278" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1603196672037" />
+    <state x="275" y="97" width="813" height="534" key="Vcs.Push.Dialog.v2" timestamp="1603196875760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" width="813" height="534" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603196229562" />
+    <state x="275" y="97" width="813" height="534" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603196875760" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600957628643">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
