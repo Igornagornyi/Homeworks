@@ -5,7 +5,7 @@ import random
 from random import randint
 import string
 def random_str_with_symbols():
-    random_str = string.ascii_lowercase + string.ascii_uppercase + '' + string.digits + string.punctuation
+    random_str = string.ascii_lowercase + string.ascii_uppercase + '' + string.digits + '' + string.punctuation
     ran_size = randint(100, 1000)
     return ''.join((random.choice(random_str) + '\n\n\n\n\n\n\n\n\n') for x in range(ran_size))
 file_path = str()
