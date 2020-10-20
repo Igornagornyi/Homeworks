@@ -5,9 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53a6ff86-bf8d-43c5-a4d8-7b71ad5a5107" name="Default Changelist" comment="done">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-    </list>
+    <list default="true" id="53a6ff86-bf8d-43c5-a4d8-7b71ad5a5107" name="Default Changelist" comment="4th" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -189,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600508967024</updated>
-    </task>
-    <task id="LOCAL-00022" summary="2 tasks">
-      <created>1601828610111</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1601828610111</updated>
     </task>
     <task id="LOCAL-00023" summary="2 tasks">
       <created>1601828725897</created>
@@ -533,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603196464113</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="4th">
+      <created>1603196947255</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1603196947256</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -591,7 +590,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10 tasks" />
     <MESSAGE value="uncommented" />
     <MESSAGE value="2 tasks" />
     <MESSAGE value="corrected 10th task" />
@@ -616,7 +614,8 @@
     <MESSAGE value="4th done" />
     <MESSAGE value=" done" />
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="4th" />
+    <option name="LAST_COMMIT_MESSAGE" value="4th" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="188" key="#Notifications" timestamp="1601018524740">
