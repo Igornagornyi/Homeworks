@@ -5,11 +5,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53a6ff86-bf8d-43c5-a4d8-7b71ad5a5107" name="Default Changelist" comment="4th" />
+    <list default="true" id="53a6ff86-bf8d-43c5-a4d8-7b71ad5a5107" name="Default Changelist" comment="done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,6 +49,27 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.homework 10">
+    <configuration name="Homework 9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\PycharmProjects\projects\Homework 9.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="classwork" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,27 +133,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="homework 9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework 9.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,7 +178,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.homework 10" />
-        <item itemvalue="Python.homework 9" />
+        <item itemvalue="Python.Homework 9" />
         <item itemvalue="Python.rt" />
         <item itemvalue="Python.classwork" />
         <item itemvalue="Python.homework 8" />
@@ -613,15 +618,15 @@
     <MESSAGE value="2nd" />
     <MESSAGE value="4th done" />
     <MESSAGE value=" done" />
-    <MESSAGE value="done" />
     <MESSAGE value="4th" />
-    <option name="LAST_COMMIT_MESSAGE" value="4th" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="188" key="#Notifications" timestamp="1601018524740">
+    <state x="421" y="188" key="#Notifications" timestamp="1603197862637">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="421" y="188" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1601018524740" />
+    <state x="421" y="188" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1603197862637" />
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601039009389">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
