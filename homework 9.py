@@ -254,7 +254,7 @@ def read_persons_date_of_birth_and_death(path_file):
                                 if 'rd' in b_date[index]:
                                     b_date[index] = b_date[index].replace('rd', '')
                                 if 'st' in d_date[index]:
-                                    b_date[index] = b_date[index].replace('st', '')
+                                        b_date[index] = b_date[index].replace('st', '')
                                 if 'nd' in d_date[index]:
                                     b_date[index] = b_date[index].replace('nd', '')
                                 if 'th' in d_date[index]:
