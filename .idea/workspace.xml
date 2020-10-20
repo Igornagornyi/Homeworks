@@ -5,9 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53a6ff86-bf8d-43c5-a4d8-7b71ad5a5107" name="Default Changelist" comment="4th done">
-      <change beforePath="$PROJECT_DIR$/homework 10.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework 10.py" afterDir="false" />
-    </list>
+    <list default="true" id="53a6ff86-bf8d-43c5-a4d8-7b71ad5a5107" name="Default Changelist" comment="done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,20 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600508967024</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Corrected mistakes">
-      <created>1601407133348</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1601407133348</updated>
-    </task>
-    <task id="LOCAL-00018" summary="10 tasks">
-      <created>1601705791145</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1601705791145</updated>
     </task>
     <task id="LOCAL-00019" summary="7 tasks">
       <created>1601706141849</created>
@@ -533,7 +517,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603195068584</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="4th done">
+      <created>1603195462089</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1603195462089</updated>
+    </task>
+    <task id="LOCAL-00067" summary="done">
+      <created>1603195570084</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1603195570085</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -591,7 +589,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Corrected mistakes" />
     <MESSAGE value="7 tasks" />
     <MESSAGE value="10 tasks" />
     <MESSAGE value="uncommented" />
@@ -616,7 +613,8 @@
     <MESSAGE value="new" />
     <MESSAGE value="2nd" />
     <MESSAGE value="4th done" />
-    <option name="LAST_COMMIT_MESSAGE" value="4th done" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="188" key="#Notifications" timestamp="1601018524740">
@@ -683,10 +681,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="519" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601664103392" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603195161151">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603195284191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603195161151" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603195284191" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600957628643">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
