@@ -1,5 +1,5 @@
 #express
-
+from datetime import datetime
 import os
 def get_path_to_files_and_folders(path):
     files = []
@@ -11,256 +11,68 @@ def get_path_to_files_and_folders(path):
             files.append(path_item)
         else:
             folders.append(path_item)
-            my_dict = {'folders': folders, 'files': files}
-    return my_dict
+            my_dict_folders = {'folders': folders, 'files': files}
+    return my_dict_folders
 ###########################################################################################################3
 #1
 def read_name_date_lines(file_path):
     my_list_name = []
     with open(file_path, 'r') as file:
-        lines = file.readlines()
-        for line in lines:
-            if "death" in line.lower() or "birth" in line.lower():
-                my_list_name.append(line)
+        for line in file.readlines():
+            if "death" in line.lower() or "birth" in line.lower() or 'died' in line.lower():
+                my_list_name.append(line.strip())
     return my_list_name
 ##############################################################################################
 #2
-def read_dates(path_file):
-    my_list_date = []
-    with open(path_file, 'r') as file:
-        lines = file.readlines()
-        for line in lines:
-            if "death" in line.lower() or "birth" in line.lower():
-                if "'" in line:
-                    r_limit = line.find('-')
-                    my_list_date.append(line[0:r_limit].strip())
-            if "died" in line:
-                r_limit = line.find('-')
-                my_list_date.append(line[0:r_limit].strip())
-            for index in range(len(my_list_date)):
-                if 'January' in line:
-                    my_list_date[index] = my_list_date[index].replace('January', '01')
-                    my_list_date[index] = my_list_date[index].split()
-                    my_list_date[index] = '/'.join(my_list_date[index])
-                if 'February' in line:
-                    my_list_date[index] = my_list_date[index].replace('February', '02')
-                    my_list_date[index] = my_list_date[index].split()
-                    my_list_date[index] = '/'.join(my_list_date[index])
-                if 'March' in line:
-                    my_list_date[index] = my_list_date[index].replace('March', '03')
-                    my_list_date[index] = my_list_date[index].split()
-                    my_list_date[index] = '/'.join(my_list_date[index])
-                if 'April' in line:
-                    my_list_date[index] = my_list_date[index].replace('April', '04')
-                    my_list_date[index] = my_list_date[index].split()
-                    my_list_date[index] = '/'.join(my_list_date[index])
-                if 'May' in line:
-                    my_list_date[index] = my_list_date[index].replace('May', '05')
-                    my_list_date[index] = my_list_date[index].split()
-                    my_list_date[index] = '/'.join(my_list_date[index])
-                if 'June' in line:
-                    my_list_date[index] = my_list_date[index].replace('June', '06')
-                    my_list_date[index] = my_list_date[index].split()
-                    my_list_date[index] = '/'.join(my_list_date[index])
-                if 'July' in line:
-                    my_list_date[index] = my_list_date[index].replace('July', '07')
-                    my_list_date[index] = my_list_date[index].split()
-                    my_list_date[index] = '/'.join(my_list_date[index])
-                if 'August' in line:
-                    my_list_date[index] = my_list_date[index].replace('August', '08')
-                    my_list_date[index] = my_list_date[index].split()
-                    my_list_date[index] = '/'.join(my_list_date[index])
-                if 'September' in line:
-                    my_list_date[index] = my_list_date[index].replace('September', '09')
-                    my_list_date[index] = my_list_date[index].split()
-                    my_list_date[index] = '/'.join(my_list_date[index])
-                if 'October' in line:
-                    my_list_date[index] = my_list_date[index].replace('October', '10')
-                    my_list_date[index] = my_list_date[index].split()
-                    my_list_date[index] = '/'.join(my_list_date[index])
-                if 'November' in line:
-                    my_list_date[index] = my_list_date[index].replace('November', '11')
-                    my_list_date[index] = my_list_date[index].split()
-                    my_list_date[index] = '/'.join(my_list_date[index])
-                if 'December' in line:
-                    my_list_date[index] = my_list_date[index].replace('December', '12')
-                    my_list_date[index] = my_list_date[index].split()
-                    my_list_date[index] = '/'.join(my_list_date[index])
-                if 'rd' in my_list_date[index]:
-                    my_list_date[index] = my_list_date[index].replace('rd', '')
-                if 'st' in my_list_date[index]:
-                    my_list_date[index] = my_list_date[index].replace('st', '')
-                if 'nd' in  my_list_date[index]:
-                    my_list_date[index] = my_list_date[index].replace('nd', '')
-                if 'th' in my_list_date[index]:
-                    my_list_date[index] = my_list_date[index].replace('th', '')
-    return my_list_date
+def get_date_numbers(number_line):
+    return "".join([symbol for symbol in number_line if symbol.isdigit()])
 
-def read_names(file_path):
+
+def get_date(line):
+    date = line.split("-")[0].strip().split()
+    date = f"{get_date_numbers(date[0])} {date[1]} {date[2]}"
+    res_date = datetime.strptime(date, '%d %B %Y').strftime('%d/%m/%Y')
+    return res_date
+
+def read_names(line):
     my_list_name = []
-    with open(file_path, 'r') as file:
-        lines = file.readlines()
-        for line in lines:
-            if "death" in line.lower() or "birth" in line.lower():
-                if "'" in line:
-                    l_limit = line.find('-')
-                    r_limit = line.find("'")
-                    my_list_name.append(line[l_limit + 1:r_limit].strip())
-            if "died" in line:
-                    l_limit = line.find('-')
-                    r_limit = line.find('died')
-                    my_list_name.append(line[l_limit+1:r_limit].strip())
+    if "death" in line.lower() or "birth" in line.lower():
+        if "'" in line:
+            l_limit = line.find('-')
+            r_limit = line.find("'")
+            my_list_name.append(line[l_limit + 1:r_limit].strip())
+    if "died" in line:
+            l_limit = line.find('-')
+            r_limit = line.find('died')
+            my_list_name.append(line[l_limit+1:r_limit].strip())
     return my_list_name
 
-# lines = read_name_date_lines('authors.txt')
-def read_name_and_date(lines):
-    # l_limit = line.find('-')
-    # r_limit = line.find("'")
-    # r_limit = l_limit
-    name = read_names('authors.txt')
-    date = read_dates('authors.txt')
-    my_dict = {"name": name, "date": date}
-    return my_dict
+def read_name_date_dict(line):
+    my_dict = {}
+    my_dict["name"] = read_names(line)
+    date = get_date(line)
+    my_dict["date"] = date
+    return my_dict if my_dict["name"] else {}
 ##########################################################################################################################
 #3
+def read_name_and_b_date_d_dict_dict(line):
+    my_dict_2 = {}
+    my_dict_2["name"] = read_names(line)
+    date = get_date(line)
+    if 'birth' in line.lower():
+        my_dict_2["b_date"] = date
+    elif 'death' in line.lower() or 'died' in line.lower():
+        my_dict_2["d_date"] = date
+    return my_dict_2 if my_dict_2["name"] else {}
+print(read_name_and_b_date_d_dict_dict(line=read_name_date_lines('authors.txt')[0]))
+##########################################################################################################################
+#4
 
-lines = read_name_date_lines('authors.txt')
-def get_person_list(lines):
+def get_person_name_date_dict_list(lines):
     result_list = []
     for line in lines:
-        result_list.append(read_name_and_date(lines))
-        return result_list
-print(get_person_list(lines))
+        my_dict = read_name_and_b_date_d_dict_dict(line)
+        if my_dict:
+            result_list.append(my_dict)
+    return result_list
 #########################################################################################################
-#4
-path_file = 'authors.txt'
-def read_persons_date_of_birth_and_death():
-    b_date = []
-    d_date = []
-    name = read_names(path_file)
-    with open(path_file, 'r') as file:
-        lines = file.readlines()
-        for line in lines:
-            if "death" in line.lower() or "died" in line.lower():
-                r_limit = line.find('-')
-                d_date.append(line[0:r_limit].strip())
-            if "birth" in line.lower():
-                b_date.append(line[0:r_limit].strip())
-        for index in range(len(d_date)):
-            if 'January' in line:
-                d_date[index] = d_date[index].replace('January', '01')
-                d_date[index] = d_date[index].split()
-                d_date[index] = '/'.join(d_date[index])
-            if 'February' in line:
-                d_date[index] = d_date[index].replace('February', '02')
-                d_date[index] = d_date[index].split()
-                d_date[index] = '/'.join(d_date[index])
-            if 'March' in line:
-                d_date[index] = d_date[index].replace('March', '03')
-                d_date[index] = d_date[index].split()
-                d_date[index] = '/'.join(d_date[index])
-            if 'April' in line:
-                d_date[index] = d_date[index].replace('April', '04')
-                d_date[index] = d_date[index].split()
-                d_date[index] = '/'.join(d_date[index])
-            if 'May' in line:
-                d_date[index] = d_date[index].replace('May', '05')
-                d_date[index] = d_date[index].split()
-                d_date[index] = '/'.join(d_date[index])
-            if 'June' in line:
-                d_date[index] = d_date[index].replace('June', '06')
-                d_date[index] = d_date[index].split()
-                d_date[index] = '/'.join(d_date[index])
-            if 'July' in line:
-                d_date[index] = d_date[index].replace('July', '07')
-                d_date[index] = d_date[index].split()
-                d_date[index] = '/'.join(d_date[index])
-            if 'August' in line:
-                d_date[index] = d_date[index].replace('August', '08')
-                d_date[index] = d_date[index].split()
-                d_date[index] = '/'.join(d_date[index])
-            if 'September' in line:
-                d_date[index] = d_date[index].replace('September', '09')
-                d_date[index] = d_date[index].split()
-                d_date[index] = '/'.join(d_date[index])
-            if 'October' in line:
-                d_date[index] = d_date[index].replace('October', '10')
-                d_date[index] = d_date[index].split()
-                d_date[index] = '/'.join(d_date[index])
-            if 'November' in line:
-                d_date[index] = d_date[index].replace('November', '11')
-                d_date[index] = d_date[index].split()
-                d_date[index] = '/'.join(d_date[index])
-            if 'December' in line:
-                d_date[index] = d_date[index].replace('December', '12')
-                d_date[index] = d_date[index].split()
-                d_date[index] = '/'.join(d_date[index])
-            if 'rd' in d_date[index]:
-                d_date[index] = d_date[index].replace('rd', '')
-            if 'st' in d_date[index]:
-                d_date[index] = d_date[index].replace('st', '')
-            if 'nd' in d_date[index]:
-                d_date[index] = d_date[index].replace('nd', '')
-            if 'th' in d_date[index]:
-                d_date[index] = d_date[index].replace('th', '')
-        for index in range(len(b_date)):
-            if 'January' in line:
-                b_date[index] = b_date[index].replace('January', '01')
-                b_date[index] = b_date[index].split()
-                b_date[index] = '/'.join(b_date[index])
-            if 'February' in line:
-                b_date[index] = b_date[index].replace('February', '02')
-                b_date[index] = b_date[index].split()
-                b_date[index] = '/'.join(b_date[index])
-            if 'March' in line:
-                b_date[index] = b_date[index].replace('March', '03')
-                b_date[index] = b_date[index].split()
-                b_date[index] = '/'.join(b_date[index])
-            if 'April' in line:
-                b_date[index] = b_date[index].replace('April', '04')
-                b_date[index] = b_date[index].split()
-                b_date[index] = '/'.join(b_date[index])
-            if 'May' in line:
-                b_date[index] = b_date[index].replace('May', '05')
-                b_date[index] = b_date[index].split()
-                b_date[index] = '/'.join(b_date[index])
-            if 'June' in line:
-                b_date[index] = b_date[index].replace('June', '06')
-                b_date[index] = b_date[index].split()
-                b_date[index] = '/'.join(b_date[index])
-            if 'July' in line:
-                b_date[index] = b_date[index].replace('July', '07')
-                b_date[index] = b_date[index].split()
-                b_date[index] = '/'.join(b_date[index])
-            if 'August' in line:
-                b_date[index] = b_date[index].replace('August', '08')
-                b_date[index] = b_date[index].split()
-                b_date[index] = '/'.join(b_date[index])
-            if 'September' in line:
-                b_date[index] = b_date[index].replace('September', '09')
-                b_date[index] = b_date[index].split()
-                b_date[index] = '/'.join(b_date[index])
-            if 'October' in line:
-                b_date[index] = b_date[index].replace('October', '10')
-                b_date[index] = b_date[index].split()
-                b_date[index] = '/'.join(b_date[index])
-            if 'November' in line:
-                b_date[index] = b_date[index].replace('November', '11')
-                b_date[index] = b_date[index].split()
-                b_date[index] = '/'.join(b_date[index])
-            if 'December' in line:
-                b_date[index] = b_date[index].replace('December', '12')
-                b_date[index] = b_date[index].split()
-                b_date[index] = '/'.join(b_date[index])
-            if 'rd' in b_date[index]:
-                b_date[index] = b_date[index].replace('rd', '')
-            if 'st' in d_date[index]:
-                b_date[index] = b_date[index].replace('st', '')
-            if 'nd' in d_date[index]:
-                b_date[index] = b_date[index].replace('nd', '')
-            if 'th' in d_date[index]:
-                b_date[index] = b_date[index].replace('th', '')
-                new_dict = {'name': name, 'b_date': b_date, 'd_date': d_date}
-    return new_dict
-
-print(read_persons_date_of_birth_and_death())
