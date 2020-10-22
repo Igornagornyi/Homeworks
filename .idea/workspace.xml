@@ -5,7 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7230b8-ff28-4939-845d-d28146e6f0d8" name="Default Changelist" comment="done">
+    <list default="true" id="6c7230b8-ff28-4939-845d-d28146e6f0d8" name="Default Changelist" comment="all corrected">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework 9.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework 9.py" afterDir="false" />
     </list>
@@ -37,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
-  <component name="RunManager" selected="Python.qq">
+  <component name="RunManager" selected="Python.homework 9">
     <configuration name="homework 9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,8 +82,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.qq" />
         <item itemvalue="Python.homework 9" />
+        <item itemvalue="Python.qq" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603265323682</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="all corrected">
+      <created>1603355477424</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1603355477424</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,7 +228,8 @@
     <MESSAGE value=" done" />
     <MESSAGE value="4th done" />
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="all corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="all corrected" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603199380102">
@@ -232,22 +240,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603201810384" />
-    <state width="1345" height="182" key="GridCell.Tab.0.bottom" timestamp="1603355333126">
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom" timestamp="1603356325646">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603355333126" />
-    <state width="1345" height="182" key="GridCell.Tab.0.center" timestamp="1603355333125">
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603356325646" />
+    <state width="1345" height="182" key="GridCell.Tab.0.center" timestamp="1603356325645">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603355333125" />
-    <state width="1345" height="182" key="GridCell.Tab.0.left" timestamp="1603355333125">
+    <state width="1345" height="182" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603356325645" />
+    <state width="1345" height="182" key="GridCell.Tab.0.left" timestamp="1603356325645">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603355333125" />
-    <state width="1345" height="182" key="GridCell.Tab.0.right" timestamp="1603355333126">
+    <state width="1345" height="182" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603356325645" />
+    <state width="1345" height="182" key="GridCell.Tab.0.right" timestamp="1603356325645">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603355333126" />
+    <state width="1345" height="182" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603356325645" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1603201511538">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -256,10 +264,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="569" y="278" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1603199670746" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603265329237">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603355481312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603265329237" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603355481312" />
     <state x="0" y="0" width="1122" height="715" key="dock-window-1" timestamp="1603199734760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
