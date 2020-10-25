@@ -71,9 +71,10 @@ def read_name_and_b_date_d_dict(line):
 def get_person_name_date_dict_list(lines):
     result_list = []
     for line in lines:
-        my_dict = read_name_and_b_date_d_dict(line)    ccc
+        my_dict = read_name_and_b_date_d_dict(line)
         if my_dict:
             result_list.append(my_dict)
     return result_list
 print(get_person_name_date_dict_list(lines=read_name_date_lines('authors.txt')))
 #########################################################################################################
+ffdd
