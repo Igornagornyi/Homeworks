@@ -63,7 +63,7 @@ def read_name_and_b_date_d_dict(line):
         my_dict_2["b_date"] = date
     elif 'death' in line.lower() or 'died' in line.lower():
         my_dict_2["d_date"] = date
-    return my_dict_2  if my_dict_2["name"] else {}
+    return my_dict_2 if my_dict_2["name"] else {}
 # print(read_name_and_b_date_d_dict(line=read_name_date_lines('authors.txt')[0]))
 ##########################################################################################################################
 #4
@@ -75,4 +75,5 @@ def get_person_name_date_dict_list(lines):
         if my_dict:
             result_list.append(my_dict)
     return result_list
+print(get_person_name_date_dict_list(lines=read_name_date_lines('authors.txt')))
 #########################################################################################################
