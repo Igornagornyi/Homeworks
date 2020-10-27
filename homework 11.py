@@ -65,7 +65,6 @@ def url_list_names(tmp_dict):
     my_list_names = []
     my_list_names.append(tmp_dict['quoteAuthor'])
     return my_list_names if tmp_dict['quoteAuthor'] else None
-print(url_list_names(tmp_dict=my_url))
 
 def url_list_names_sort(my_url):
     data = sorted(my_url, key=url_list_names)
@@ -75,7 +74,6 @@ def url_text_list(my_url):
     my_list_text = []
     my_list_text.append(my_url['quoteText'])
     return my_list_text if my_url['quoteText'] else None
-print(url_text_list(my_url))
 
 def url_link_list(my_url):
     my_list_link = []
@@ -94,7 +92,6 @@ def write_csv(file_path):
             csvwriter.writerows([data_1, data_2, data_3])
         except(csv.Error):
             pass
-print(write_csv(file_path))
 
 
 
