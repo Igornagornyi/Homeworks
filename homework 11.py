@@ -1,5 +1,7 @@
 import json
 import re
+import requests
+import csv
 
 #1
 file_path = 'D:/PycharmProjects/projects/data.json'
@@ -22,7 +24,6 @@ def list_names(tmp_str):
 def sort_names_dict(my_list):
     sort_list = sorted(my_list, key=list_names)
     return sort_list
-print(sort_names_dict(my_list))
 #3
 def sort_years(tmp_str):
     years_str = tmp_str['years']
@@ -49,6 +50,62 @@ def sort_text(tmp_str):
 def text_dict(my_list):
     data = sorted(my_list, key=sort_text)
     return data
-print(text_dict(my_list))
 
 ############################################################################################################################
+
+url = 'https://api.forismatic.com/api/1.0/'
+my_dict = {'method': 'getQuote', 'lang': 'ru', 'format': 'json'}
+def get_response(url):
+    response = requests.get(url, params=my_dict)
+    return response.json()
+
+
+my_url = get_response(url)
+def url_list_names(tmp_dict):
+    url_name_str = tmp_dict['quoteAuthor']
+    reg_ex = r"[\/а-яА-ЯёЁA-z].+"
+    result = re.findall(reg_ex, url_name_str)
+    return result if my_url['quoteAuthor'] else {}
+
+
+def url_list_names_dict(my_url):
+    data = sorted(my_url, key=url_list_names)
+    return data
+
+def url_text_dict(my_url):
+    url_text = my_url['quoteText']
+    reg_ex = r"[а-яА-ЯёЁ].+"
+    result = re.findall(reg_ex, url_text)
+    return result if my_url['quoteAuthor'] else {}
+
+
+def url_link_dict(my_url):
+    url_link = my_url['quoteLink']
+    reg_ex = r"(?:https?:\/\/)?.[a-z]+.[a-z]{1,3}.[a-z]{2}.[0-9a-z]+"
+    result = re.findall(reg_ex, url_link)
+    return result if my_url['quoteAuthor'] else {}
+
+file_path = 'D:/PycharmProjects/projects/new.csw'
+def write_csv(file_path):
+    fieldnames = ['quoteAuthor', 'quoteText', 'quoteLink']
+    with open('new.csv', 'w') as csvfile:
+        data_1 = url_list_names(my_url)
+        data_2 = url_text_dict(my_url)
+        data_3 = url_link_dict(my_url)
+        csvwriter = csv.writer(csvfile)
+        csvwriter.writerow(['quoteAuthor', 'quoteText', 'quoteLink'])
+        csvwriter.writerows([data_1, data_2, data_3])
+
+
+
+
+        # csvwriter = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        # data_1 = url_list_names_dict(my_url) in range(20)
+        # data_2 = url_text_dict(my_url)
+        # data_3 = url_link_dict(my_url)
+        # csvwriter.writeheader
+        # csvwriter.writerow({'quoteAuthor': data_1, 'quoteText': data_2, 'quoteLink': data_3})
+
+
+
+
