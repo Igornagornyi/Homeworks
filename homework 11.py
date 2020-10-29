@@ -74,7 +74,7 @@ def url_list_names_sort(my_url):
 
 file_path = 'D:/PycharmProjects/projects/new.csw'
 def write_csv(file_path):
-    with open('new.csv', 'w') as csvfile:
+    with open('homework 11.csv', 'w') as csvfile:
         data_1 = url_list_names_sort(my_url)[0:20]
         data_2 = my_list_text[0:20]
         data_3 = my_list_link[0:20]
