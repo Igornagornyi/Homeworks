@@ -77,3 +77,4 @@ def get_person_name_date_dict_list(lines):
     return result_list
 print(get_person_name_date_dict_list(lines=read_name_date_lines('authors.txt')))
 #########################################################################################################
+
