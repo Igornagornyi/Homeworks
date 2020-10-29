@@ -5,9 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7230b8-ff28-4939-845d-d28146e6f0d8" name="Default Changelist" comment="corrected 29.10.20">
-      <change beforePath="$PROJECT_DIR$/homework 9.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework 9.py" afterDir="false" />
-    </list>
+    <list default="true" id="6c7230b8-ff28-4939-845d-d28146e6f0d8" name="Default Changelist" comment="corrected 29.10.20" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1j8wVZ1WMnufTbuaVm2VjvB9qzy" />
@@ -328,7 +327,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603998930942</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="corrected 29.10.20">
+      <created>1603999072790</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1603999072791</updated>
+    </task>
+    <task id="LOCAL-00029" summary="corrected 29.10.20">
+      <created>1603999116763</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1603999116763</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -404,14 +417,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="569" y="278" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1603199670746" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603998944757">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603999439558">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603998944757" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603999439558" />
     <state x="0" y="0" width="1122" height="715" key="dock-window-1" timestamp="1603199734760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" width="1122" height="715" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1603199734760" />
+    <state x="497" y="258" key="git4idea.ui.GitResetDialog" timestamp="1603999211399">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="497" y="258" key="git4idea.ui.GitResetDialog/0.0.1366.728@0.0.1366.728" timestamp="1603999211399" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603554343777">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
