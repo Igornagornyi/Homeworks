@@ -9,9 +9,11 @@ def random_str_with_symbols():
     ran_size = randint(100, 1000)
     return ''.join((random.choice(random_str) + '\n\n\n\n\n\n\n\n\n') for x in range(ran_size))
 file_path = ''
-def write_file_txt(file_path:str):
+def write_file_txt(file_path:str, data):
     with open(file_path, 'w') as file:
-        for line in random_str_with_symbols():
+        if data:
+            file.write(data)
+        else:
             file.write(random_str_with_symbols())
 
 
@@ -31,41 +33,48 @@ def write_text_for_json():
     json_dict = {"key": key, "value": value}
     return json_dict
 
-def write_json(file_path:str):
+def write_json(file_path:str, data):
     with open(file_path, 'w') as write_file:
-        json.dump(write_text_for_json(), write_file)
+        if data:
+            json.dump(data, write_file)
+        else:
+            json.dump(write_text_for_json(), write_file)
 
 
 
-def write_csv(file_path:str):
+def write_csv(file_path:str, data):
     with open(file_path, 'w') as csvfile:
         n_number = [0, 1]
         n_number_csv = [random.choices(n_number, k=randint(3, 10))]
         m_number = [0, 1]
         m_number_csv = [random.choices(m_number, k=randint(3, 10))]
         csvwriter = csv.writer(csvfile)
-        csvwriter.writerow(n_number_csv)
-        csvwriter.writerows(m_number_csv)
+        if data:
+            csvwriter.writerow(data)
+        else:
+            csvwriter.writerow(n_number_csv)
+            csvwriter.writerows(m_number_csv)
 #################################################################################################################
 
 
 
 
 
-file_path = 'D:/PycharmProjects/projects/new.json'
+file_path = 'D:/PycharmProjects/projects/new.txt'
 class FileWriter:
     def __init__(self, file_path):
         self.filename = file_path
+        self.data = 'hello'
         self.write()
 
     def write(self):
         extension = file_path.rsplit(".")[-1]
         if extension == 'txt':
-            file_data = write_file_txt(file_path)
+            file_data = write_file_txt(file_path, data=self.data)
         elif extension == 'csv':
-            file_data = write_csv(file_path)
+            file_data = write_csv(file_path, data=self.data)
         elif extension == 'json':
-            file_data = write_json(file_path)
+            file_data = write_json(file_path, data=self.data)
         else:
             raise Exception('Unsupported file format')
         return file_data
