@@ -5,10 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7230b8-ff28-4939-845d-d28146e6f0d8" name="Default Changelist" comment="new">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework13.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework13.py" afterDir="false" />
-    </list>
+    <list default="true" id="6c7230b8-ff28-4939-845d-d28146e6f0d8" name="Default Changelist" comment="first" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -443,7 +440,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604095633309</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="first">
+      <created>1604155574214</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1604155574214</updated>
+    </task>
+    <task id="LOCAL-00042" summary="first">
+      <created>1604155594413</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1604155594413</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -473,12 +484,12 @@
     <MESSAGE value=" done" />
     <MESSAGE value="4th done" />
     <MESSAGE value="all corrected" />
-    <MESSAGE value="first" />
     <MESSAGE value="partially 2nd done" />
     <MESSAGE value="corrected 29.10.20" />
     <MESSAGE value="done" />
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603199380102">
@@ -545,10 +556,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="569" y="278" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1604080159054" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604095636860">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604155754208">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604095636860" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604155754208" />
     <state x="0" y="0" width="1122" height="715" key="dock-window-1" timestamp="1603199734760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
