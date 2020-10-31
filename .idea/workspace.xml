@@ -5,12 +5,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7230b8-ff28-4939-845d-d28146e6f0d8" name="Default Changelist" comment="done" />
+    <list default="true" id="6c7230b8-ff28-4939-845d-d28146e6f0d8" name="Default Changelist" comment="done already">
+      <change beforePath="$PROJECT_DIR$/homework13.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework13.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -32,8 +35,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
   <component name="RunManager" selected="Python.exam_task">
     <configuration name="Homework 10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -151,6 +155,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ShelveChangesManager" show_recycled="true" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -461,7 +466,35 @@
       <option name="project" value="LOCAL" />
       <updated>1604155850206</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="done">
+      <created>1604156149751</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1604156149751</updated>
+    </task>
+    <task id="LOCAL-00045" summary="done already">
+      <created>1604156503573</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1604156503574</updated>
+    </task>
+    <task id="LOCAL-00046" summary="done already">
+      <created>1604156585127</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1604156585127</updated>
+    </task>
+    <task id="LOCAL-00047" summary="done already">
+      <created>1604156645818</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1604156645818</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -497,7 +530,9 @@
     <MESSAGE value="first" />
     <MESSAGE value="done 2" />
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="done w." />
+    <MESSAGE value="done already" />
+    <option name="LAST_COMMIT_MESSAGE" value="done already" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="188" key="#Notifications" timestamp="1604155988863">
@@ -508,30 +543,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1603199380102" />
-    <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1604000330926">
+    <state x="129" y="55" width="1092" height="610" key="DiffContextDialog" timestamp="1604156599825">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="129" y="55" width="1092" height="610" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1604000330926" />
+    <state x="129" y="55" width="1092" height="610" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1604156599825" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1603201810384">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603201810384" />
-    <state width="1345" height="183" key="GridCell.Tab.0.bottom" timestamp="1604155495759">
+    <state width="672" height="183" key="GridCell.Tab.0.bottom" timestamp="1604156460697">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="183" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604155495759" />
-    <state width="1345" height="183" key="GridCell.Tab.0.center" timestamp="1604155495759">
+    <state width="672" height="183" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604156460697" />
+    <state width="672" height="183" key="GridCell.Tab.0.center" timestamp="1604156460697">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="183" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604155495759" />
-    <state width="1345" height="183" key="GridCell.Tab.0.left" timestamp="1604155495759">
+    <state width="672" height="183" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604156460696" />
+    <state width="672" height="183" key="GridCell.Tab.0.left" timestamp="1604156460696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="183" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604155495759" />
-    <state width="1345" height="183" key="GridCell.Tab.0.right" timestamp="1604155495759">
+    <state width="672" height="183" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604156460696" />
+    <state width="672" height="183" key="GridCell.Tab.0.right" timestamp="1604156460697">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="183" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604155495759" />
+    <state width="672" height="183" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604156460697" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1604070828618">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -560,18 +595,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="519" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604134724916" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1603201511538">
+    <state x="184" y="9" key="SettingsEditor" timestamp="1604156427801">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603201511538" />
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604156427801" />
     <state x="569" y="278" key="VCS.EditChangelistDialog" timestamp="1604080159054">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="569" y="278" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1604080159054" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604155863577">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604156909100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604155863577" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604156909100" />
     <state x="0" y="0" width="1122" height="715" key="dock-window-1" timestamp="1603199734760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
