@@ -19,6 +19,7 @@ def create_randome_triangle():
         print('Точки не лежат на одной прямой')
     return f"{square:.{2}f}"
 
+################################################
 A = (10.0, 5.2)
 def create_right_triangle(vert: A) :
     num = 2 ** 0.5
@@ -26,7 +27,18 @@ def create_right_triangle(vert: A) :
     B = ((A[0] + float(f_num)), A[1])
     C = (A[0], float(f_num) + A[1])
     return {'Координаты B': tuple(B), 'Координаты C': tuple(C)}
-print(create_right_triangle(vert=A))
 
-
-
+##################################################
+A = (9, 12.9)
+B = (12, 3.0)
+C = (1.2, 0.5)
+def create_triangle_with_coord(coord:tuple):
+    diff_1 = (A[0] - C[0], A[1] - C[1])
+    diff_2 = (B[0] - C[0], B[1] - C[1])
+    diff_3 = (diff_2[-1], diff_2[0])
+    mult = (diff_1[0] * diff_3[0], diff_1[1] * diff_3[1])
+    sum = 0
+    for i in mult:
+        sum = sum + i
+        square = abs(sum / 2)
+    return f"{square:.{2}f}"
