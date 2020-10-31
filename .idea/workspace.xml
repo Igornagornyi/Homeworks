@@ -5,9 +5,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7230b8-ff28-4939-845d-d28146e6f0d8" name="Default Changelist" comment="done already">
+    <list default="true" id="6c7230b8-ff28-4939-845d-d28146e6f0d8" name="Default Changelist" comment="first">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework13.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework13.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
-  <component name="RunManager" selected="Python.exam_task">
+  <component name="RunManager" selected="Python.homework13">
     <configuration name="Homework 10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,9 +151,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.homework13" />
         <item itemvalue="Python.exam_task" />
         <item itemvalue="Python.classwork14" />
-        <item itemvalue="Python.homework13" />
         <item itemvalue="Python.ww" />
         <item itemvalue="Python.Homework 10" />
       </list>
@@ -505,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604157010826</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="first">
+      <created>1604166093839</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1604166093839</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -538,12 +545,12 @@
     <MESSAGE value="partially 2nd done" />
     <MESSAGE value="corrected 29.10.20" />
     <MESSAGE value="new" />
-    <MESSAGE value="first" />
     <MESSAGE value="done 2" />
     <MESSAGE value="done" />
     <MESSAGE value="done w." />
     <MESSAGE value="done already" />
-    <option name="LAST_COMMIT_MESSAGE" value="done already" />
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="188" key="#Notifications" timestamp="1604155988863">
@@ -562,22 +569,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603201810384" />
-    <state width="1345" height="183" key="GridCell.Tab.0.bottom" timestamp="1604159540569">
+    <state width="1345" height="185" key="GridCell.Tab.0.bottom" timestamp="1604169368321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="183" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604159540569" />
-    <state width="1345" height="183" key="GridCell.Tab.0.center" timestamp="1604159540568">
+    <state width="1345" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604169368321" />
+    <state width="1345" height="185" key="GridCell.Tab.0.center" timestamp="1604169368321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="183" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604159540568" />
-    <state width="1345" height="183" key="GridCell.Tab.0.left" timestamp="1604159540568">
+    <state width="1345" height="185" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604169368321" />
+    <state width="1345" height="185" key="GridCell.Tab.0.left" timestamp="1604169368321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="183" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604159540568" />
-    <state width="1345" height="183" key="GridCell.Tab.0.right" timestamp="1604159540569">
+    <state width="1345" height="185" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604169368321" />
+    <state width="1345" height="185" key="GridCell.Tab.0.right" timestamp="1604169368321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="183" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604159540569" />
+    <state width="1345" height="185" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604169368321" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1604070828618">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -614,10 +621,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="569" y="278" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1604080159054" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604157155345">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604166099610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604157155345" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604166099610" />
     <state x="0" y="0" width="1122" height="715" key="dock-window-1" timestamp="1603199734760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -630,6 +637,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="497" y="258" key="git4idea.ui.GitResetDialog/0.0.1366.728@0.0.1366.728" timestamp="1603999211399" />
+    <state x="526" y="149" key="refactoring.ChangeSignatureDialog" timestamp="1604166689077">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="526" y="149" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1604166689077" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603554343777">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
