@@ -7,7 +7,7 @@ import string
 def random_str_with_symbols():
     random_str = string.ascii_lowercase + string.ascii_uppercase + '' + string.digits + '' + string.punctuation
     ran_size = randint(100, 1000)
-    return ''.join((random.choice(random_str) + '\n\n\n\n\n\n\n\n\n') for x in range(ran_size))
+    return ''.join((random.choice(random_str) + '\n' * 9) for x in range(ran_size))
 file_path = ''
 def write_file_txt(file_path:str, data):
     with open(file_path, 'w') as file:
@@ -64,7 +64,7 @@ file_path = 'D:/PycharmProjects/projects/new.txt'
 class FileWriter:
     def __init__(self, file_path):
         self.filename = file_path
-        self.data = 'hello'
+        self.data = 'hello people'
         self.write()
 
     def write(self):
