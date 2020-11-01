@@ -22,14 +22,13 @@ def create_randome_triangle():
     return f"{square:.{2}f}"
 
 ################################################
-A = (10.0, 5.2)
+A = (17.0, 7.2)
 def create_right_triangle(vert: A) :
-    num = 2 ** 0.5
-    f_num = f"{num:.{2}f}"
+    triangle_side = 200 ** 0.5
+    f_num = f"{triangle_side:.{2}f}"
     B = ((A[0] + float(f_num)), A[1])
     C = (A[0], float(f_num) + A[1])
     return {'Координаты B': tuple(B), 'Координаты C': tuple(C)}
-
 ##################################################
 A = (9, 12.9)
 B = (12, 3.0)
@@ -58,7 +57,7 @@ except FileExistsError:
     pass
 
 
-filename = ran_str_six_symb()[0:4]
+filename = ran_str_six_symb()
 ran_int = random.randint(4, 400)
 symbol_1 = filename[0]
 symbol_2 = filename[1]
@@ -80,8 +79,6 @@ my_data = {"filename": filename, "Width": ran_int, "objects":
 
 
 
-
-
-filename = 'D:/PycharmProjects/projects' + '/tmp_folder' + '/' + ran_str_six_symb() + '.json'
+filename = 'D:/PycharmProjects/projects/tmp_folder' + '/' + filename + '.json'
 with open(filename, 'w') as json_file:
     json.dump(my_data, json_file)

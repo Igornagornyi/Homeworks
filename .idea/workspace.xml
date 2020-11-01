@@ -169,13 +169,6 @@
       <option name="presentableId" value="Default" />
       <updated>1603199054581</updated>
     </task>
-    <task id="LOCAL-00003" summary="done">
-      <created>1603199274262</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1603199274262</updated>
-    </task>
     <task id="LOCAL-00004" summary="done">
       <created>1603199308339</created>
       <option name="number" value="00004" />
@@ -512,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604221528658</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="corrected">
+      <created>1604247149557</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1604247149557</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -570,22 +570,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603201810384" />
-    <state width="1345" height="185" key="GridCell.Tab.0.bottom" timestamp="1604246853754">
+    <state width="1345" height="185" key="GridCell.Tab.0.bottom" timestamp="1604251719568">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604246853754" />
-    <state width="1345" height="185" key="GridCell.Tab.0.center" timestamp="1604246853753">
+    <state width="1345" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604251719568" />
+    <state width="1345" height="185" key="GridCell.Tab.0.center" timestamp="1604251719568">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="185" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604246853753" />
-    <state width="1345" height="185" key="GridCell.Tab.0.left" timestamp="1604246853753">
+    <state width="1345" height="185" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604251719568" />
+    <state width="1345" height="185" key="GridCell.Tab.0.left" timestamp="1604251719567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="185" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604246853753" />
-    <state width="1345" height="185" key="GridCell.Tab.0.right" timestamp="1604246853754">
+    <state width="1345" height="185" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604251719567" />
+    <state width="1345" height="185" key="GridCell.Tab.0.right" timestamp="1604251719568">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="185" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604246853754" />
+    <state width="1345" height="185" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604251719568" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1604070828618">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -622,10 +622,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="569" y="278" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1604080159054" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604221536299">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604247153698">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604221536299" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604247153698" />
     <state x="0" y="0" width="1122" height="715" key="dock-window-1" timestamp="1603199734760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
