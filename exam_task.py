@@ -81,3 +81,5 @@ my_data = {"filename": filename, "Width": ran_int, "objects":
 filename = 'D:/PycharmProjects/projects/tmp_folder' + '/' + filename + '.json'
 with open(filename, 'w') as json_file:
     json.dump(my_data, json_file)
+
+    #gg
