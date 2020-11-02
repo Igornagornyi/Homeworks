@@ -13,7 +13,7 @@ class Units:
 
 
 class Mage(Units):
-    def __init__(self, name, clan, health, power, dext, intell, features):
+    def __init__(self, name, clan, health, power, dext, intell):
         super().__init__(name, clan, health, power, dext, intell)
         self.features = 'air', 'fire', 'water'
 
@@ -22,13 +22,16 @@ class Mage(Units):
             self.intell += 1
 
     def __repr__(self):
-        return f"Name:{self.name},Clan:{self.clan}, Health:{self.health}, Power:{self.power}, Dexterity:{self.dext}, Intelligence:{self.intell}, Features:{self.features}"
-result = Mage('john', 'mage', health=55, power=10, dext=10, intell=7, features= ('air', 'fire', 'water'))
+        return f"Name:{self.name},Clan:{self.clan}, Health:{self.health}, Power:{self.power}, Dexterity:{self.dext}," \
+               f" Intelligence:{self.intell}, Features:{self.features}"
+
+result = Mage(name='John', clan='mage', health=55, power=10, dext=10, intell=7)
 result.health_increase()
 result.increase_intell()
 print(result)
+
 class Archer(Units):
-    def __init__(self, name, clan, health, power, dext, intell, feature):
+    def __init__(self, name, clan, health, power, dext, intell):
         super().__init__(name, clan, health, power, dext, intell)
         self.feature = 'bow', 'crossbow'
 
@@ -37,16 +40,17 @@ class Archer(Units):
             self.dext += 1
 
     def __repr__(self):
-        return f"Name:{self.name},Clan:{self.clan}, Health:{self.health}, Power:{self.power}, Dexterity:{self.dext}, Intelligence:{self.intell}, Features:{self.feature}"
+        return f"Name:{self.name},Clan:{self.clan}, Health:{self.health}, Power:{self.power}, Dexterity:{self.dext}," \
+               f" Intelligence:{self.intell}, Features:{self.feature}"
 
-result = Archer('Valter', 'archer', health=67, power=6, dext=3, intell=1, feature= ('bow', 'crossbow'))
+result = Archer('Valter', 'archer', health=67, power=6, dext=3, intell=1)
 result.increase_dext()
 result.health_increase()
 print(result)
 
 
 class Knight(Units):
-    def __init__(self, name, clan, health, power, dext, intell, feature):
+    def __init__(self, name, clan, health, power, dext, intell):
         super().__init__(name, clan, health, power, dext, intell)
         self.feature = 'sword', 'axe', 'lance'
 
@@ -55,9 +59,10 @@ class Knight(Units):
             self.power += 1
 
     def __repr__(self):
-        return f"Name:{self.name},Clan:{self.clan}, Health:{self.health}, Power:{self.power}, Dexterity:{self.dext}, Intelligence:{self.intell}, Features:{self.feature}"
-result = Knight(name='Lancelot', clan='knight', health=3, power=4, dext=1, intell=1, feature=('sword', 'axe', 'lance'))
+        return f"Name:{self.name},Clan:{self.clan}, Health:{self.health}, Power:{self.power}, Dexterity:{self.dext}," \
+               f" Intelligence:{self.intell}, Features:{self.feature}"
 
+result = Knight(name='Lancelot', clan='knight', health=3, power=4, dext=1, intell=1)
 result.health_increase()
 result.increase_power()
 print(result)
