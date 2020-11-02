@@ -20,7 +20,6 @@ def create_randome_triangle():
     else:
         print('Точки не лежат на одной прямой')
     return f"{square:.{2}f}"
-
 ################################################
 A = (17.0, 7.2)
 def create_right_triangle(vert: A) :
