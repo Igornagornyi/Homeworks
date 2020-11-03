@@ -11,10 +11,9 @@ def create_randome_triangle():
     diff_2 = B - C
     value = diff_2[-1], diff_2[0]
     mult = diff_1 * value
-    sum = 0
     for i in mult:
-        sum = sum + i
-        square = abs(sum / 2)
+        result = i[0] - i[1]
+        square = abs(result / 2)
     if square < 0.001:
         print('Точки лежат на одной прямой')
     else:
@@ -37,10 +36,9 @@ def create_triangle_with_coord(coord:tuple):
     diff_2 = (B[0] - C[0], B[1] - C[1])
     value = (diff_2[-1], diff_2[0])
     mult = (diff_1[0] * value[0], diff_1[1] * value[1])
-    sum = 0
     for i in mult:
-        sum = sum + i
-        square = abs(sum / 2)
+        result = i[0] - i[1]
+        square = abs(result / 2)
     return f"{square:.{2}f}"
 ##################################################################################
 #2
