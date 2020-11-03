@@ -9,8 +9,8 @@ def create_randome_triangle():
     C = numpy.random.uniform(-100.0, 100.0, 2)
     diff_1 = A - C
     diff_2 = B - C
-    value = diff_2[-1], diff_2[0]
-    mult = diff_1 * value
+    diff_2_rev = diff_2[-1], diff_2[0]
+    mult = diff_1 * diff_2_rev
     diff_3 = (mult[0] - mult[1])
     square = abs(diff_3 / 2)
     if square < 0.001:
@@ -27,14 +27,14 @@ def create_right_triangle(vert: A) :
     C = (A[0], float(f_num) + A[1])
     return {'Координаты B': tuple(B), 'Координаты C': tuple(C)}
 ##################################################
-A = (9, 12.9)
+A = (14.3, 12.9)
 B = (12, 3.0)
 C = (1.2, 0.5)
 def create_triangle_with_coord(coord:tuple):
     diff_1 = (A[0] - C[0], A[1] - C[1])
     diff_2 = (B[0] - C[0], B[1] - C[1])
-    value = (diff_2[-1], diff_2[0])
-    mult = (diff_1[0] * value[0], diff_1[1] * value[1])
+    diff_2_rev = (diff_2[-1], diff_2[0])
+    mult = (diff_1[0] * diff_2_rev[0], diff_1[1] * diff_2_rev[1])
     diff_3 = mult[0] - mult[1]
     square = abs(diff_3 / 2)
     return f"{square:.{2}f}"
