@@ -9,8 +9,8 @@ def create_randome_triangle():
     C = numpy.random.uniform(-100.0, 100.0, 2)
     diff_1 = A - C
     diff_2 = B - C
-    diff_3 = diff_2[-1], diff_2[0]
-    mult = diff_1 * diff_3
+    value = diff_2[-1], diff_2[0]
+    mult = diff_1 * value
     sum = 0
     for i in mult:
         sum = sum + i
@@ -35,8 +35,8 @@ C = (1.2, 0.5)
 def create_triangle_with_coord(coord:tuple):
     diff_1 = (A[0] - C[0], A[1] - C[1])
     diff_2 = (B[0] - C[0], B[1] - C[1])
-    diff_3 = (diff_2[-1], diff_2[0])
-    mult = (diff_1[0] * diff_3[0], diff_1[1] * diff_3[1])
+    value = (diff_2[-1], diff_2[0])
+    mult = (diff_1[0] * value[0], diff_1[1] * value[1])
     sum = 0
     for i in mult:
         sum = sum + i
