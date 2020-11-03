@@ -43,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
-  <component name="RunManager" selected="Python.homework14">
+  <component name="RunManager" selected="Python.exam_task">
     <configuration name="classwork14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,9 +151,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.exam_task" />
         <item itemvalue="Python.homework14" />
         <item itemvalue="Python.dd" />
-        <item itemvalue="Python.exam_task" />
         <item itemvalue="Python.homework13" />
         <item itemvalue="Python.classwork14" />
       </list>
@@ -168,20 +168,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603199054581</updated>
-    </task>
-    <task id="LOCAL-00013" summary="4th done">
-      <created>1603201566030</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1603201566030</updated>
-    </task>
-    <task id="LOCAL-00014" summary="done">
-      <created>1603201637402</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1603201637402</updated>
     </task>
     <task id="LOCAL-00015" summary="done">
       <created>1603265323682</created>
@@ -512,7 +498,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604388970819</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="done">
+      <created>1604428804226</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1604428804226</updated>
+    </task>
+    <task id="LOCAL-00063" summary="done">
+      <created>1604429132976</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1604429132976</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -573,22 +573,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603201810384" />
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1604393906799">
+    <state width="1345" height="185" key="GridCell.Tab.0.bottom" timestamp="1604430574047">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604393906799" />
-    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1604393906798">
+    <state width="1345" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604430574047" />
+    <state width="1345" height="185" key="GridCell.Tab.0.center" timestamp="1604430574047">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604393906798" />
-    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1604393906798">
+    <state width="1345" height="185" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604430574047" />
+    <state width="1345" height="185" key="GridCell.Tab.0.left" timestamp="1604430574047">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604393906798" />
-    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1604393906799">
+    <state width="1345" height="185" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604430574047" />
+    <state width="1345" height="185" key="GridCell.Tab.0.right" timestamp="1604430574047">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604393906799" />
+    <state width="1345" height="185" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604430574047" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1604393906801">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -629,10 +629,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="569" y="278" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1604080159054" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604388975060">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604429139319">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604388975060" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604429139319" />
     <state x="0" y="0" width="1122" height="715" key="dock-window-1" timestamp="1603199734760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
