@@ -11,14 +11,14 @@ def create_randome_triangle():
     diff_2 = B - C
     value = diff_2[-1], diff_2[0]
     mult = diff_1 * value
-    for i in mult:
-        result = i[0] - i[1]
-        square = abs(result / 2)
+    result = (mult[0] - mult[1])
+    square = abs(result / 2)
     if square < 0.001:
         print('Точки лежат на одной прямой')
     else:
         print('Точки не лежат на одной прямой')
     return f"{square:.{2}f}"
+print(create_randome_triangle())
 ################################################
 A = (17.0, 7.2)
 def create_right_triangle(vert: A) :
@@ -36,10 +36,10 @@ def create_triangle_with_coord(coord:tuple):
     diff_2 = (B[0] - C[0], B[1] - C[1])
     value = (diff_2[-1], diff_2[0])
     mult = (diff_1[0] * value[0], diff_1[1] * value[1])
-    for i in mult:
-        result = i[0] - i[1]
-        square = abs(result / 2)
+    result = mult[0] - mult[1]
+    square = abs(result / 2)
     return f"{square:.{2}f}"
+print(create_triangle_with_coord(coord=(A,B,C)))
 ##################################################################################
 #2
 def ran_str_six_symb():
