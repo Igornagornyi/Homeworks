@@ -1,16 +1,15 @@
 import random
-import numpy
 import json
 import os
 import string
 def create_randome_triangle():
-    A = numpy.random.uniform(-100.0, 100.0, 2)
-    B = numpy.random.uniform(-100.0, 100.0, 2)
-    C = numpy.random.uniform(-100.0, 100.0, 2)
-    diff_1 = A - C
-    diff_2 = B - C
+    A = (random.uniform(-100.0, 100.0), random.uniform(-100.0, 100.0))
+    B = (random.uniform(-100.0, 100.0), random.uniform(-100.0, 100.0))
+    C = (random.uniform(-100.0, 100.0), random.uniform(-100.0, 100.0))
+    diff_1 = (A[0] - C[0]), (A[1] - C[1])
+    diff_2 = (B[0] - C[0]), (B[1] - C[1])
     diff_2_rev = diff_2[-1], diff_2[0]
-    mult = diff_1 * diff_2_rev
+    mult = diff_1[0] * diff_2_rev[0], diff_1[1] * diff_2_rev[1]
     diff_3 = (mult[0] - mult[1])
     square = abs(diff_3 / 2)
     if square < 0.001:
@@ -18,6 +17,7 @@ def create_randome_triangle():
     else:
         print('Точки не лежат на одной прямой')
     return f"{square:.{2}f}"
+
 ################################################
 A = (17.0, 7.2)
 def create_right_triangle(vert: A) :
@@ -51,31 +51,25 @@ try:
 except FileExistsError:
     pass
 
-
 filename = ran_str_six_symb()
-ran_int = random.randint(4, 400)
-symbol_1 = filename[0]
-symbol_2 = filename[1]
-symbol_3 = filename[2]
-symbol_4 = filename[3]
-xmin_1 = 0 if symbol_1.isdigit() else None
-xmax_1 = ran_int // 4 if symbol_1.isdigit() else None
-xmin_2 = ran_int // 4 if symbol_2.isdigit() else None
-xmax_2 = ran_int // 2 if symbol_2.isdigit() else None
-xmin_3 = ran_int // 2 if symbol_3.isdigit() else None
-xmax_3 = ran_int - (ran_int // 4) if symbol_3.isdigit() else None
-xmin_4 = ran_int - (ran_int // 4) if symbol_4.isdigit() else None
-xmax_4 = ran_int if symbol_4.isdigit() else None
-my_data = {"filename": filename, "Width": ran_int, "objects":
-    {"object_1": {"class": symbol_1, "xmin": xmin_1, "xmax": xmax_1},
-     "object_2": {"class": symbol_2, "xmin": xmin_2, "xmax": xmax_2},
-     "object_3": {"class": symbol_3, "xmin": xmin_3, "xmax": xmax_3},
-     "object_4": {"class": symbol_4, "xmin": xmin_4, "xmax": xmax_4}}}
+def write_dict_for_json():
+    my_data = {}
+    my_data["filename"] = filename[0:4]
+    ran_int = random.randint(4, 400)
+    my_data["Width"] = ran_int
+    my_data["objects"] = []
+    for index, symbol in enumerate(my_data["filename"]):
+        my_obj = {"object": {}}
+        step = ran_int // 4
+        my_obj["object"]["symbol"] = symbol
+        my_obj["object"]["xmin"] = (step * index)
+        my_obj["object"]["xmax"] = (step * index) + step
+        if symbol != "_":
+            my_data["objects"].append(my_obj)
+    return my_data
 
-
-
-filename = 'D:/PycharmProjects/projects/tmp_folder' + '/' + filename + '.json'
-with open(filename, 'w') as json_file:
-    json.dump(my_data, json_file)
+my_filename = 'D:/PycharmProjects/projects/tmp_folder' + '/' + filename + '.json'
+with open(my_filename, 'w') as json_file:
+    json.dump(write_dict_for_json(), json_file, indent=2)
 
 
