@@ -81,7 +81,7 @@ def write_csv(file_path):
         my_data = [["quoteAuthor", "quoteText", "quoteLink"], [data_1, data_2, data_3]]
         csvwriter = csv.writer(csvfile)
         csvwriter.writerows(my_data)
-print(write_csv(file_path))
+# print(write_csv(file_path))
 
 
 
