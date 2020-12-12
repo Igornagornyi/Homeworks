@@ -7,8 +7,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6c7230b8-ff28-4939-845d-d28146e6f0d8" name="Default Changelist" comment="10 english writers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en_writers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/en_writers.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writers.py" beforeDir="false" afterPath="$PROJECT_DIR$/writers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework 11.csv" beforeDir="false" afterPath="$PROJECT_DIR$/homework 11.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework 11.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework 11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework13.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework13.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +43,10 @@
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/en_writers.csv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework 11.csv" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
-  <component name="RunManager" selected="Python.writers">
+  <component name="RunManager" selected="Python.homework 11">
     <configuration name="exam_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="homework14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="homework 11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,7 +101,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework14.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework 11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson15" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="homework13" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,7 +122,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson15.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework13.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.homework 11" />
+        <item itemvalue="Python.homework13" />
         <item itemvalue="Python.writers" />
         <item itemvalue="Python.ff" />
         <item itemvalue="Python.exam_task" />
-        <item itemvalue="Python.lesson15" />
-        <item itemvalue="Python.homework14" />
       </list>
     </recent_temporary>
   </component>
@@ -170,13 +171,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603199054581</updated>
-    </task>
-    <task id="LOCAL-00021" summary="first">
-      <created>1603618708009</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1603618708009</updated>
     </task>
     <task id="LOCAL-00022" summary="new">
       <created>1603618741078</created>
@@ -514,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605092692358</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="10 english writers">
+      <created>1605198854603</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1605198854603</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -576,26 +577,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="55" width="1092" height="610" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1604318414451" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1605092621831">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1607797607392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605092621831" />
-    <state width="1345" height="185" key="GridCell.Tab.0.bottom" timestamp="1605198567991">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607797607392" />
+    <state width="1345" height="185" key="GridCell.Tab.0.bottom" timestamp="1607798178880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605198567991" />
-    <state width="1345" height="185" key="GridCell.Tab.0.center" timestamp="1605198567991">
+    <state width="1345" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607798178880" />
+    <state width="1345" height="185" key="GridCell.Tab.0.center" timestamp="1607798178880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="185" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605198567991" />
-    <state width="1345" height="185" key="GridCell.Tab.0.left" timestamp="1605198567991">
+    <state width="1345" height="185" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607798178880" />
+    <state width="1345" height="185" key="GridCell.Tab.0.left" timestamp="1607798178880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="185" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605198567991" />
-    <state width="1345" height="185" key="GridCell.Tab.0.right" timestamp="1605198567991">
+    <state width="1345" height="185" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607798178880" />
+    <state width="1345" height="185" key="GridCell.Tab.0.right" timestamp="1607798178880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="185" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605198567991" />
+    <state width="1345" height="185" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607798178880" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1605192098146">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -636,10 +637,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="569" y="278" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1604080159054" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605092698005">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605198863788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605092698005" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605198863788" />
     <state x="0" y="0" width="1122" height="715" key="dock-window-1" timestamp="1603199734760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

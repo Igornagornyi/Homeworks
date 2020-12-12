@@ -78,9 +78,9 @@ def write_csv(file_path):
         data_1 = url_list_names_sort(my_url)[0:20]
         data_2 = my_list_text[0:20]
         data_3 = my_list_link[0:20]
+        my_data = [["quoteAuthor", "quoteText", "quoteLink"], [data_1, data_2, data_3]]
         csvwriter = csv.writer(csvfile)
-        csvwriter.writerow(['quoteAuthor', 'quoteText', 'quoteLink'])
-        csvwriter.writerows([data_1, data_2, data_3])
+        csvwriter.writerows(my_data)
 print(write_csv(file_path))
 
 

@@ -81,4 +81,3 @@ class FileWriter:
 
 
 my_writer = FileWriter(file_path)
-my_writer.write()
