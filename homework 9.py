@@ -22,6 +22,7 @@ def read_name_date_lines(file_path):
             if "death" in line.lower() or "birth" in line.lower() or 'died' in line.lower():
                 my_list_name.append(line.strip())
     return my_list_name
+# print(read_name_date_lines(file_path = 'D:/PycharmProjects/projects/authors.txt'))
 ##############################################################################################
 #2
 def get_date_numbers(number_line):
@@ -75,6 +76,5 @@ def get_person_name_date_dict_list(lines):
         if my_dict:
             result_list.append(my_dict)
     return result_list
-print(get_person_name_date_dict_list(lines=read_name_date_lines('authors.txt')))
 #########################################################################################################
 
