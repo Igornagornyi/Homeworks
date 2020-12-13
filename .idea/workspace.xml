@@ -5,11 +5,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7230b8-ff28-4939-845d-d28146e6f0d8" name="Default Changelist" comment="10 english writers">
+    <list default="true" id="6c7230b8-ff28-4939-845d-d28146e6f0d8" name="Default Changelist" comment="new">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework 11.csv" beforeDir="false" afterPath="$PROJECT_DIR$/homework 11.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework 11.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework 11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework13.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework13.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,27 +45,6 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
   <component name="RunManager" selected="Python.homework 11">
-    <configuration name="exam_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam_task.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="ff" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,6 +79,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework 11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="homework 9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework 9.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,10 +153,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.homework 11" />
+        <item itemvalue="Python.homework 9" />
         <item itemvalue="Python.homework13" />
         <item itemvalue="Python.writers" />
         <item itemvalue="Python.ff" />
-        <item itemvalue="Python.exam_task" />
       </list>
     </recent_temporary>
   </component>
@@ -171,55 +169,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603199054581</updated>
-    </task>
-    <task id="LOCAL-00022" summary="new">
-      <created>1603618741078</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1603618741078</updated>
-    </task>
-    <task id="LOCAL-00023" summary="partially 2nd done">
-      <created>1603792188267</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1603792188267</updated>
-    </task>
-    <task id="LOCAL-00024" summary="partially 2nd done">
-      <created>1603819054989</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1603819054989</updated>
-    </task>
-    <task id="LOCAL-00025" summary="partially 2nd done">
-      <created>1603819081374</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1603819081374</updated>
-    </task>
-    <task id="LOCAL-00026" summary="corrected 29.10.20">
-      <created>1603998529166</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1603998529166</updated>
-    </task>
-    <task id="LOCAL-00027" summary="corrected 29.10.20">
-      <created>1603998930942</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1603998930942</updated>
-    </task>
-    <task id="LOCAL-00028" summary="corrected 29.10.20">
-      <created>1603999072790</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1603999072791</updated>
     </task>
     <task id="LOCAL-00029" summary="corrected 29.10.20">
       <created>1603999116763</created>
@@ -515,7 +464,56 @@
       <option name="project" value="LOCAL" />
       <updated>1605198854603</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="new">
+      <created>1607798294799</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1607798294799</updated>
+    </task>
+    <task id="LOCAL-00072" summary="new">
+      <created>1607798450994</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1607798450994</updated>
+    </task>
+    <task id="LOCAL-00073" summary="new">
+      <created>1607798590981</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1607798590981</updated>
+    </task>
+    <task id="LOCAL-00074" summary="new">
+      <created>1607798639336</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1607798639336</updated>
+    </task>
+    <task id="LOCAL-00075" summary="new">
+      <created>1607798771981</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1607798771981</updated>
+    </task>
+    <task id="LOCAL-00076" summary="new">
+      <created>1607800460725</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1607800460725</updated>
+    </task>
+    <task id="LOCAL-00077" summary="new">
+      <created>1607802660338</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1607802660338</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -556,9 +554,9 @@
     <MESSAGE value="all done" />
     <MESSAGE value="first part" />
     <MESSAGE value="done" />
-    <MESSAGE value="new" />
     <MESSAGE value="10 english writers" />
-    <option name="LAST_COMMIT_MESSAGE" value="10 english writers" />
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="188" key="#Notifications" timestamp="1604317970308">
@@ -581,22 +579,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607797607392" />
-    <state width="1345" height="185" key="GridCell.Tab.0.bottom" timestamp="1607798178880">
+    <state width="1345" height="94" key="GridCell.Tab.0.bottom" timestamp="1607885342313">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607798178880" />
-    <state width="1345" height="185" key="GridCell.Tab.0.center" timestamp="1607798178880">
+    <state width="1345" height="94" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607885342313" />
+    <state width="1345" height="94" key="GridCell.Tab.0.center" timestamp="1607885342313">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="185" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607798178880" />
-    <state width="1345" height="185" key="GridCell.Tab.0.left" timestamp="1607798178880">
+    <state width="1345" height="94" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607885342313" />
+    <state width="1345" height="94" key="GridCell.Tab.0.left" timestamp="1607885342313">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="185" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607798178880" />
-    <state width="1345" height="185" key="GridCell.Tab.0.right" timestamp="1607798178880">
+    <state width="1345" height="94" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607885342313" />
+    <state width="1345" height="94" key="GridCell.Tab.0.right" timestamp="1607885342313">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="185" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607798178880" />
+    <state width="1345" height="94" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607885342313" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1605192098146">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -637,10 +635,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="569" y="278" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1604080159054" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605198863788">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1607802663462">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605198863788" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607802663462" />
     <state x="0" y="0" width="1122" height="715" key="dock-window-1" timestamp="1603199734760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
